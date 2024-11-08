@@ -1,0 +1,98 @@
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .card {
+    width: 300px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+    display: flex;  flex-wrap: wrap;
+    gap: 16px; /* space between cards */
+    justify-content: center;
+  }
+  
+  .card-header {
+    background-color: purple;
+    color: white;
+    padding: 10px;
+    font-size: 1.2em;
+  }
+  
+  .label {
+    background-color: lightgreen;
+    color: black;
+    padding: 5px;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    border-radius: 5px;
+  }
+  
+  .duration {
+    background-color: yellow;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 10px 0;
+  }
+  
+  .title {
+    color: orange;
+    font-size: 1.5em;
+    margin: 10px 0;
+  }
+  
+  .price {
+    color: purple;
+    font-size: 1.8em;
+  }
+  
+  .note {
+    color: gray;
+    font-size: 0.9em;
+    margin: 10px 0;
+  }
+  
+  .benefits-section {
+    margin-top: 15px;
+  }
+  
+  .benefits-section h4 {
+    background-color: purple;
+    color: white;
+    padding: 5px;
+    margin: 0;
+  }
+  
+  .benefits-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .benefits-section li {
+    color: purple;
+    margin: 5px 0;
+  }
+  
+  .enroll-button {
+    background-color: purple;
+    color: white;
+    padding: 10px 20px;
+    margin: 15px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+  }
+  
+  .enroll-button:hover {
+    background-color: darkpurple;
+  }
+  
